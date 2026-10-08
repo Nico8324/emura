@@ -3,7 +3,7 @@ labels: ["idea"]
 body:
   - type: markdown
     attributes:
-      value: Search first: if someone had the idea already, vote for it with 👍 instead.
+      value: "Search first: if someone had the idea already, vote for it with 👍 instead."
   - type: textarea
     id: idea
     attributes:

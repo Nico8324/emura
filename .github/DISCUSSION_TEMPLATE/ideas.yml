@@ -1,0 +1,13 @@
+title: "[Idea] "
+labels: ["idea"]
+body:
+  - type: markdown
+    attributes:
+      value: Search first: if someone had the idea already, vote for it with 👍 instead.
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: What you'd like Emura to do, and when you'd use it.
+    validations:
+      required: true

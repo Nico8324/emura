@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a question
+    url: https://github.com/Nico8324/emura/discussions/categories/q-a
+    about: How do I…? Players and the developer answer in Discussions.
+  - name: Suggest an idea
+    url: https://github.com/Nico8324/emura/discussions/categories/ideas
+    about: Features and wishes, which others can vote for.
+  - name: Email support
+    url: https://nico8324.github.io/emura/
+    about: Prefer email, or something private? Write to emura.support@icloud.com.

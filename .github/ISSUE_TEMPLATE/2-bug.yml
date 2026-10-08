@@ -1,0 +1,35 @@
+name: Something in the app is wrong
+description: A screen, a button, a setting or anything outside the games themselves.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what you saw instead. Screenshots welcome.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How to see it again
+      placeholder: |
+        1. Open Settings
+        2. Tap …
+        3. …
+  - type: input
+    id: iphone
+    attributes:
+      label: iPhone and iOS
+      placeholder: "e.g. iPhone 16 Pro, iOS 27.0"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Emura version
+      description: Settings › About › Version.
+      placeholder: "e.g. 1.0"
+    validations:
+      required: true

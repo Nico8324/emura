@@ -1,0 +1,8 @@
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: Say which console and game it's about, if it's about one. Never share game files or links to them.
+    validations:
+      required: true

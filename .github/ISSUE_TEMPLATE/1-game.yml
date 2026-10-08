@@ -1,0 +1,68 @@
+name: A game doesn't run right
+description: It won't start, freezes, looks or sounds wrong, or runs slowly.
+title: "[Game] "
+labels: ["game"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time. One game per report, please.
+
+        **Never attach or link game files, BIOS files or save files from others.** Reports with them are deleted.
+  - type: input
+    id: game
+    attributes:
+      label: Game
+      description: Its name, and its region if you know it.
+      placeholder: "e.g. The game's name (Europe)"
+    validations:
+      required: true
+  - type: dropdown
+    id: system
+    attributes:
+      label: Console
+      options: ["Game Boy", "Game Boy Color", "Game Boy Advance", "DS", "3DS"]
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What goes wrong
+      options:
+        - It won't start
+        - It freezes or closes
+        - Graphics look wrong
+        - Sound is wrong
+        - It runs slowly
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: Where you were in the game and what you saw. A screenshot or short video helps a lot.
+    validations:
+      required: true
+  - type: input
+    id: iphone
+    attributes:
+      label: iPhone and iOS
+      placeholder: "e.g. iPhone 16 Pro, iOS 27.0"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Emura version
+      description: Settings › About › Version.
+      placeholder: "e.g. 1.0"
+    validations:
+      required: true
+  - type: checkboxes
+    id: rules
+    attributes:
+      label: Before sending
+      options:
+        - label: I own this game, and I'm not sharing game files or links to them.
+          required: true

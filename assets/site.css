@@ -1,0 +1,88 @@
+/* Emura's pages: the brand's graphite and silver, quiet type, one column. Light and dark. */
+:root {
+  --ink: #11161c;
+  --muted: #5b6573;
+  --page: #f4f6fa;
+  --card: #ffffff;
+  --line: rgba(17, 22, 28, 0.08);
+  --accent: #3a5a8c;
+  --hero-from: #1c232c;
+  --hero-to: #11161c;
+  --hero-ink: #f1f4fa;
+  --hero-muted: #a9b3c1;
+  --radius: 18px;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ink: #f1f4fa;
+    --muted: #a3adbb;
+    --page: #0b0f14;
+    --card: #151b23;
+    --line: rgba(241, 244, 250, 0.08);
+    --accent: #9cb8e6;
+  }
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--page);
+  color: var(--ink);
+  font: 17px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", system-ui, sans-serif;
+}
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
+
+/* The graphite band at the top, with the metallic logo. */
+.hero {
+  background: radial-gradient(120% 90% at 50% 0%, var(--hero-from), var(--hero-to));
+  color: var(--hero-ink);
+  text-align: center;
+  padding: 56px 16px 64px;
+}
+.hero img.logo { width: min(320px, 72vw); height: auto; display: block; margin: 0 auto 18px; }
+.hero p { margin: 0 auto; max-width: 30em; color: var(--hero-muted); font-size: 19px; text-wrap: balance; }
+.hero nav { margin-top: 26px; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+.pill {
+  display: inline-block; padding: 9px 18px; border-radius: 999px;
+  background: rgba(241, 244, 250, 0.1); border: 1px solid rgba(241, 244, 250, 0.16);
+  color: var(--hero-ink); font-weight: 600; font-size: 15px;
+}
+.pill:hover { background: rgba(241, 244, 250, 0.18); text-decoration: none; }
+.pill.primary { background: var(--hero-ink); color: var(--hero-to); border-color: transparent; }
+
+main { max-width: 720px; margin: -28px auto 0; padding: 0 16px 56px; position: relative; }
+.card {
+  background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 22px 24px; margin-bottom: 16px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04), 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+.card h2 { margin: 0 0 6px; font-size: 19px; letter-spacing: -0.01em; }
+.card p, .card ul { margin: 6px 0 0; color: var(--muted); }
+.card ul { padding-left: 1.2em; }
+.card li + li { margin-top: 4px; }
+.card b, .card strong { color: var(--ink); }
+
+.contact { display: flex; gap: 16px; align-items: center; }
+.contact img { width: 56px; height: 56px; border-radius: 13px; flex: none; }
+.contact .address { font-size: 20px; font-weight: 600; color: var(--ink); word-break: break-all; }
+
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin-bottom: 16px; }
+.grid .card { margin: 0; }
+.tag {
+  display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--muted); margin-bottom: 4px;
+}
+.note { font-size: 14px; color: var(--muted); text-align: center; margin-top: 28px; }
+
+footer { text-align: center; color: var(--muted); font-size: 14px; padding: 0 16px 40px; }
+footer img { width: 22px; height: 22px; vertical-align: -5px; margin-right: 6px; opacity: 0.85; }
+
+@media (max-width: 480px) {
+  .hero { padding: 40px 16px 56px; }
+  .card { padding: 18px; }
+  .contact { flex-direction: column; align-items: flex-start; }
+}

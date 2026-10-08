@@ -8,7 +8,7 @@ body:
       value: |
         Thanks for taking the time. One game per report, please.
 
-        **Never attach or link game files, BIOS files or save files from others.** Reports with them are deleted.
+        **Never attach or link game files, BIOS files or save files from others.** Reports with them are deleted. Your own save state is welcome (see below).
   - type: input
     id: game
     attributes:
@@ -44,6 +44,13 @@ body:
       description: Where you were in the game and what you saw. A screenshot or short video helps a lot.
     validations:
       required: true
+  - type: textarea
+    id: state
+    attributes:
+      label: Save state (optional)
+      description: |
+        A save state made just before the problem lets us see it for ourselves (save states come with supporting Emura). In the game, open the menu › Save States, save one, then tap its ••• › Share › Save to Files.
+        Put the `.state` file in a zip (in Files: touch and hold › Compress) and drag the zip here. Over 25 MB, paste an iCloud Drive link instead.
   - type: input
     id: iphone
     attributes:

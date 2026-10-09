@@ -80,6 +80,7 @@ main { max-width: 720px; margin: -28px auto 0; padding: 0 16px 56px; position: r
 
 footer { text-align: center; color: var(--muted); font-size: 14px; padding: 0 16px 40px; }
 footer img { width: 22px; height: 22px; vertical-align: -5px; margin-right: 6px; opacity: 0.85; }
+footer .legal { font-size: 12px; max-width: 520px; margin: 12px auto 0; }
 
 @media (max-width: 480px) {
   .hero { padding: 40px 16px 56px; }

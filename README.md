@@ -24,6 +24,7 @@ This repository is Emura's home for support: help pages, problem reports and dis
 
 | | |
 |---|---|
+| ❓ **Questions people ask** | [Read the FAQ](https://nico8324.github.io/emura/faq.html) |
 | ✉️ **Email** | [emura.support@icloud.com](mailto:emura.support@icloud.com), for anything, including private matters |
 | 🎮 **A game doesn't run right** | [Report it](https://github.com/Nico8324/emura/issues/new?template=1-game.yml): which game, which iPhone, what you saw |
 | 🐞 **Something in the app is wrong** | [Report a bug](https://github.com/Nico8324/emura/issues/new?template=2-bug.yml) |

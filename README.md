@@ -38,9 +38,9 @@ This repository is Emura's home for support: help pages, problem reports and dis
 
 - **Five consoles, one app:** Game Boy, Game Boy Color, Game Boy Advance, DS and 3DS, on their own emulators written for the iPhone.
 - **Your library, looking its best:** each game's real box, title screen and screenshot, its details and, for DS and 3DS games, a description in six languages.
-- **Pick up where you left off:** Play reopens every game where you stopped.
-- **Play your way:** game controllers and keyboards, and skins made for Delta (.deltaskin), free.
-- **The consoles' own tricks:** the DS's lid and two screens, and the 3DS's camera, microphone, motion and step counter.
+- **Pick up where you left off:** for supporters, Play reopens every game where you stopped.
+- **Play your way:** game controllers and keyboards, and .deltaskin skins, free.
+- **The consoles' own tricks:** the DS's lid and two screens, and the 3DS's step counter.
 - **Every system plays free.** Supporters get save states, faster fast forward, their iPhone's colors and Screen Light.
 - **Nothing about you leaves your iPhone:** no account, no ads, no tracking. [Privacy policy](https://nico8324.github.io/emura/privacy.html).
 
@@ -48,4 +48,4 @@ This repository is Emura's home for support: help pages, problem reports and dis
 
 Emura's library uses game art and details from [libretro-thumbnails](https://github.com/libretro-thumbnails), [libretro-database](https://github.com/libretro/libretro-database) (No-Intro, CC BY-SA 4.0), [GameTDB](https://www.gametdb.com) and, with your own key, [SteamGridDB](https://www.steamgriddb.com). Thank you to everyone who scans, captures, draws and writes all of this for free. Pictures and descriptions of games belong to their owners.
 
-<p align="center"><sub>Emura is not affiliated with or endorsed by any console maker. Its name and logo are its own.</sub></p>
+<p align="center"><sub>Emura is not affiliated with or endorsed by Nintendo. Its name and logo are its own.</sub></p>

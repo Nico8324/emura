@@ -10,10 +10,10 @@
 </p>
 
 <p align="center">
-  <a href="https://nico8324.github.io/emura/">Help</a> ·
+  <a href="https://emuraapp.com/">Help</a> ·
   <a href="https://github.com/Nico8324/emura/issues/new/choose">Report a problem</a> ·
   <a href="https://github.com/Nico8324/emura/discussions">Questions &amp; ideas</a> ·
-  <a href="https://nico8324.github.io/emura/privacy.html">Privacy</a>
+  <a href="https://emuraapp.com/privacy.html">Privacy</a>
 </p>
 
 ---
@@ -24,7 +24,7 @@ This repository is Emura's home for support: help pages, problem reports and dis
 
 | | |
 |---|---|
-| ❓ **Questions people ask** | [Read the FAQ](https://nico8324.github.io/emura/faq.html) |
+| ❓ **Questions people ask** | [Read the FAQ](https://emuraapp.com/faq.html) |
 | ✉️ **Email** | [emura.support@icloud.com](mailto:emura.support@icloud.com), for anything, including private matters |
 | 🎮 **A game doesn't run right** | [Report it](https://github.com/Nico8324/emura/issues/new?template=1-game.yml): which game, which iPhone, what you saw |
 | 🐞 **Something in the app is wrong** | [Report a bug](https://github.com/Nico8324/emura/issues/new?template=2-bug.yml) |
@@ -42,7 +42,7 @@ This repository is Emura's home for support: help pages, problem reports and dis
 - **Play your way:** game controllers and keyboards, and .deltaskin skins, free.
 - **The consoles' own tricks:** the DS's lid and two screens, and the 3DS's step counter.
 - **Every system plays free.** Supporters get save states, faster fast forward, their iPhone's colors and Screen Light.
-- **Nothing about you leaves your iPhone:** no account, no ads, no tracking. [Privacy policy](https://nico8324.github.io/emura/privacy.html).
+- **Nothing about you leaves your iPhone:** no account, no ads, no tracking. [Privacy policy](https://emuraapp.com/privacy.html).
 
 ## Thanks
 

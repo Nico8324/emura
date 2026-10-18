@@ -14,7 +14,16 @@
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
+  <!-- i18n -->
   <link rel="canonical" href="https://emuraapp.com/">
+  <link rel="alternate" hreflang="en" href="https://emuraapp.com/">
+  <link rel="alternate" hreflang="fr" href="https://emuraapp.com/fr/">
+  <link rel="alternate" hreflang="de" href="https://emuraapp.com/de/">
+  <link rel="alternate" hreflang="it" href="https://emuraapp.com/it/">
+  <link rel="alternate" hreflang="es" href="https://emuraapp.com/es/">
+  <link rel="alternate" hreflang="ja" href="https://emuraapp.com/ja/">
+  <link rel="alternate" hreflang="x-default" href="https://emuraapp.com/">
+  <!-- /i18n -->
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="icon" href="favicon.ico" sizes="any">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -305,6 +314,11 @@
     .follow a { display: inline-block; padding: 8px 16px; border-radius: 999px; border: 1px solid var(--line); color: var(--ink); text-decoration: none; font-size: 14px; font-weight: 500; }
     .follow a:hover { border-color: var(--accent); color: var(--accent); }
     .follow a:focus-visible, footer nav a:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+    nav.langs { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; margin-bottom: 18px; }
+    nav.langs span { font-weight: 600; color: var(--ink); margin-right: 4px; }
+    nav.langs a { text-decoration: none; color: var(--muted); }
+    nav.langs a:hover, nav.langs a[aria-current="true"] { color: var(--ink); }
+    nav.langs a[aria-current="true"] { font-weight: 600; }
     footer nav { display: flex; flex-wrap: wrap; gap: 20px; margin-bottom: 20px; }
     footer nav a { text-decoration: none; }
     footer nav a:hover { color: var(--ink); }
@@ -499,6 +513,7 @@
   <footer>
     <div class="wrap">
       <div class="follow"><p>Follow Emura</p><ul><li><a href="https://www.reddit.com/r/EmuraApp" target="_blank" rel="noopener noreferrer">Reddit</a></li><li><a href="https://x.com/EmuraApp" target="_blank" rel="noopener noreferrer">X</a></li><li><a href="https://www.youtube.com/@EmuraApp" target="_blank" rel="noopener noreferrer">YouTube</a></li><li><a href="https://www.tiktok.com/@emuraapp" target="_blank" rel="noopener noreferrer">TikTok</a></li><li><a href="https://www.instagram.com/emuraapp/" target="_blank" rel="noopener noreferrer">Instagram</a></li><li><a href="https://www.threads.com/@emuraapp" target="_blank" rel="noopener noreferrer">Threads</a></li><li><a href="https://bsky.app/profile/emuraapp.bsky.social" target="_blank" rel="noopener noreferrer">Bluesky</a></li></ul></div>
+      <nav class="langs" aria-label="Language"><span>Language</span><a href="./" hreflang="en" lang="en" aria-current="true">English</a><a href="fr/" hreflang="fr" lang="fr">Français</a><a href="de/" hreflang="de" lang="de">Deutsch</a><a href="it/" hreflang="it" lang="it">Italiano</a><a href="es/" hreflang="es" lang="es">Español</a><a href="ja/" hreflang="ja" lang="ja">日本語</a></nav>
       <nav aria-label="Footer"><a href="faq.html">FAQ</a><a href="support.html">Support</a><a href="https://github.com/Nico8324/emura/issues/new/choose" target="_blank" rel="noopener noreferrer">Report a problem</a><a href="privacy.html">Privacy</a><a href="mailto:emura.support@icloud.com">Get in touch</a></nav>
       <p>Emura comes with no games. Games shown are fictional.</p>
       <p>Emura is not affiliated with or endorsed by Nintendo. Game Boy, Game Boy Color, Game Boy Advance, Nintendo DS and Nintendo 3DS are trademarks of Nintendo.</p>

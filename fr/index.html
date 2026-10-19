@@ -8,7 +8,7 @@
   <meta name="description" content="Vos jeux portables, sur iPhone. Tous les systèmes sont gratuits. Sans pub. Emura arrive bientôt sur l’App Store.">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Emura : vos jeux portables, sur iPhone">
-  <meta property="og:description" content="Tous les systèmes sont gratuits. Sans pub. Chaque émulateur écrit de zéro. Bêta publique bientôt.">
+  <meta property="og:description" content="Tous les systèmes sont gratuits. Sans pub. Chaque émulateur écrit en Swift pour les appareils Apple. Bêta publique bientôt.">
   <meta property="og:url" content="https://emuraapp.com/fr/">
   <meta property="og:image" content="https://emuraapp.com/assets/social.png">
   <meta property="og:image:width" content="1200">
@@ -27,9 +27,10 @@
   <link rel="icon" href="../favicon.svg" type="image/svg+xml">
   <link rel="icon" href="../favicon.ico" sizes="any">
   <link rel="apple-touch-icon" href="../apple-touch-icon.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=VT323&display=swap">
+  <style>
+    @font-face { font-family: "VT323"; font-display: swap; src: url(../assets/fonts/vt323-latin.woff2) format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+    @font-face { font-family: "VT323"; font-display: swap; src: url(../assets/fonts/vt323-latin-ext.woff2) format("woff2"); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+  </style>
   <script>
     (() => {
       let saved;
@@ -366,20 +367,20 @@
       </div>
     </section>
 
-    <!-- 4. Built from scratch -->
+    <!-- 4. Speed -->
     <section class="alt">
       <div class="wrap split">
         <div class="copy">
           <p class="eyebrow">Sans limite de vitesse, sur iPhone Air</p>
           <h2><span class="count-up" data-to="135">135</span> fps.</h2>
-          <p><strong>Les jeux 3DS tournent à 135 images par seconde en valeur médiane, plus du double de la vitesse normale.</strong> Même la scène la plus lourde de nos tests est restée au-dessus de la vitesse normale, à 71 fps.</p>
+          <p><strong>Lors de notre test, les jeux 3DS ont tourné à 135 images par seconde en valeur médiane, plus du double de la vitesse normale.</strong> La scène la plus lente que nous ayons mesurée est restée au-dessus de la vitesse normale, à 71 fps.</p>
           <ul class="perf" aria-label="Autres systèmes, sans limite de vitesse">
             <li><b><span class="count-up" data-to="234">234</span> fps</b>DS</li>
             <li><b><span class="count-up" data-to="465">465</span> fps</b>Game Boy Advance</li>
             <li><b><span class="count-up" data-to="686">686</span> fps</b>Game Boy</li>
           </ul>
-          <p>Vous jouez à la vitesse normale de chaque jeu. Toute cette marge garde le jeu fluide et rend l’avance rapide vraiment rapide. Chaque émulateur d’Emura a été écrit de zéro pour les appareils Apple, et aucun n’a besoin du JIT.</p>
-          <p class="note">Mesuré sur iPhone Air sans limite de vitesse : 15 scènes dans 11 jeux 3DS, et un jeu pour chacun des systèmes DS, Game Boy Advance et Game Boy, 30 secondes par scène, à la suite. Le téléphone a chauffé pendant les mesures : ces chiffres sont donc des minimums, pas des records. Vos résultats varieront selon le jeu, la scène, votre iPhone, sa température et le niveau de sa batterie.</p>
+          <p>Vous jouez à la vitesse normale de chaque jeu. Toute cette marge garde le jeu fluide et rend l’avance rapide vraiment rapide. Chaque émulateur d’Emura a été écrit en Swift pour les appareils Apple, et aucun n’a besoin du JIT.</p>
+          <p class="note">Mesuré une fois sur iPhone Air, avec notre version de test et sans limite de vitesse : 15 scènes dans 11 jeux 3DS, 30 secondes par scène, à la suite. DS, Game Boy Advance et Game Boy : un jeu chacun, émulation seule, sans affichage de l’image. Le téléphone a chauffé pendant les mesures. Ce n’est pas une garantie : vos résultats varieront selon le jeu, la scène, votre iPhone, sa température et le niveau de sa batterie.</p>
         </div>
         <div class="solo reveal">
           <div class="phone"><img src="../assets/play-3ds-runeriver.jpg" data-dark="../assets/play-3ds-runeriver-dark.jpg" alt="Rune &amp; River, un jeu 3DS fictif, dans Emura" width="414" height="900" loading="lazy"></div>
@@ -472,7 +473,7 @@
         <div class="copy">
           <p class="eyebrow">Les soutiens</p>
           <h2>Vous aimez ? Aidez Emura à continuer.</h2>
-          <p>Les soutiens paient au mois ou à l’année, au prix affiché par l’App Store pour votre pays. Essayez gratuitement pendant 7 jours.</p>
+          <p>Les soutiens paient au mois ou à l’année, au prix affiché par l’App Store pour votre pays. Essayez gratuitement pendant 7 jours ; ensuite, l’abonnement se renouvelle automatiquement à ce prix jusqu’à ce que vous l’annuliez.</p>
           <ul class="ticks">
             <li><b>Reprise :</b> chaque jeu se rouvre là où vous l’avez laissé</li>
             <li><b>Sauvegardes instantanées</b>, autant que vous voulez</li>
@@ -495,7 +496,7 @@
         <div class="copy">
           <p class="eyebrow">Créé par un seul développeur</p>
           <h2>Bientôt disponible.</h2>
-          <p>Un développeur indépendant, en France, a créé chacun des émulateurs d’Emura. Suivez le projet, posez vos questions et votez pour la suite.</p>
+          <p>Emura est fait par un développeur indépendant, en France. Suivez le projet, posez vos questions et votez pour la suite.</p>
           <div class="actions">
             <a class="btn primary" href="https://www.reddit.com/r/EmuraApp" target="_blank" rel="noopener noreferrer">Rejoindre r/EmuraApp</a>
             <a class="btn" href="faq.html">Lire la FAQ</a>

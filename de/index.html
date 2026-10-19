@@ -8,7 +8,7 @@
   <meta name="description" content="Deine Handheld-Spiele auf dem iPhone. Jedes System kostenlos spielbar. Keine Werbung. Emura kommt bald in den App Store.">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Emura: deine Handheld-Spiele auf dem iPhone">
-  <meta property="og:description" content="Jedes System kostenlos spielbar. Keine Werbung. Jeder Emulator von Grund auf neu geschrieben. Öffentliche Beta bald.">
+  <meta property="og:description" content="Jedes System kostenlos spielbar. Keine Werbung. Jeder Emulator in Swift für Apple-Geräte geschrieben. Öffentliche Beta bald.">
   <meta property="og:url" content="https://emuraapp.com/de/">
   <meta property="og:image" content="https://emuraapp.com/assets/social.png">
   <meta property="og:image:width" content="1200">
@@ -27,9 +27,10 @@
   <link rel="icon" href="../favicon.svg" type="image/svg+xml">
   <link rel="icon" href="../favicon.ico" sizes="any">
   <link rel="apple-touch-icon" href="../apple-touch-icon.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=VT323&display=swap">
+  <style>
+    @font-face { font-family: "VT323"; font-display: swap; src: url(../assets/fonts/vt323-latin.woff2) format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+    @font-face { font-family: "VT323"; font-display: swap; src: url(../assets/fonts/vt323-latin-ext.woff2) format("woff2"); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+  </style>
   <script>
     (() => {
       let saved;
@@ -366,20 +367,20 @@
       </div>
     </section>
 
-    <!-- 4. Built from scratch -->
+    <!-- 4. Speed -->
     <section class="alt">
       <div class="wrap split">
         <div class="copy">
           <p class="eyebrow">Ohne Tempolimit, auf dem iPhone Air</p>
           <h2><span class="count-up" data-to="135">135</span> fps.</h2>
-          <p><strong>3DS-Spiele laufen im Median mit 135 Bildern pro Sekunde, mehr als doppelt so schnell wie die volle Geschwindigkeit.</strong> Selbst die anspruchsvollste Szene, die wir getestet haben, blieb mit 71 fps über voller Geschwindigkeit.</p>
+          <p><strong>In unserem Test liefen 3DS-Spiele im Median mit 135 Bildern pro Sekunde, mehr als doppelt so schnell wie die volle Geschwindigkeit.</strong> Selbst die langsamste Szene, die wir gemessen haben, blieb mit 71 fps über voller Geschwindigkeit.</p>
           <ul class="perf" aria-label="Andere Systeme, ohne Tempolimit">
             <li><b><span class="count-up" data-to="234">234</span> fps</b>DS</li>
             <li><b><span class="count-up" data-to="465">465</span> fps</b>Game Boy Advance</li>
             <li><b><span class="count-up" data-to="686">686</span> fps</b>Game Boy</li>
           </ul>
-          <p>Du spielst jedes Spiel in seiner normalen Geschwindigkeit. Der ganze Spielraum hält es flüssig und macht Vorspulen richtig schnell. Jeder Emulator in Emura wurde von Grund auf für Apple-Geräte geschrieben, und keiner davon braucht JIT.</p>
-          <p class="note">Gemessen auf dem iPhone Air ohne Tempolimit: 15 Szenen in 11 3DS-Spielen sowie je ein Spiel für DS, Game Boy Advance und Game Boy, 30 Sekunden pro Szene, direkt hintereinander. Das iPhone wurde während des Tests warm, daher sind das Untergrenzen, keine Bestwerte. Deine Ergebnisse variieren je nach Spiel, Szene, deinem iPhone, seiner Temperatur und seinem Akkustand.</p>
+          <p>Du spielst jedes Spiel in seiner normalen Geschwindigkeit. Der ganze Spielraum hält es flüssig und macht Vorspulen richtig schnell. Jeder Emulator in Emura wurde in Swift für Apple-Geräte geschrieben, und keiner davon braucht JIT.</p>
+          <p class="note">Einmal gemessen auf dem iPhone Air, mit unserer Testversion und ohne Tempolimit: 15 Szenen in 11 3DS-Spielen, 30 Sekunden pro Szene, direkt hintereinander. DS, Game Boy Advance und Game Boy: je ein Spiel, nur die Emulation, ohne Bildausgabe. Das iPhone wurde während des Tests warm. Keine Garantie: Deine Ergebnisse variieren je nach Spiel, Szene, deinem iPhone, seiner Temperatur und seinem Akkustand.</p>
         </div>
         <div class="solo reveal">
           <div class="phone"><img src="../assets/play-3ds-runeriver.jpg" data-dark="../assets/play-3ds-runeriver-dark.jpg" alt="Rune &amp; River, ein fiktives 3DS-Spiel, läuft in Emura" width="414" height="900" loading="lazy"></div>
@@ -472,7 +473,7 @@
         <div class="copy">
           <p class="eyebrow">Unterstützer</p>
           <h2>Gefällt’s dir? Hilf mit, dass es weitergeht.</h2>
-          <p>Unterstützer zahlen monatlich oder jährlich, zu dem Preis, den der App Store für dein Land anzeigt. Probier es 7 Tage kostenlos aus.</p>
+          <p>Unterstützer zahlen monatlich oder jährlich, zu dem Preis, den der App Store für dein Land anzeigt. Probier es 7 Tage kostenlos aus; danach verlängert sich das Abo automatisch zu diesem Preis, bis du es kündigst.</p>
           <ul class="ticks">
             <li><b>Fortsetzen:</b> Jedes Spiel öffnet sich wieder dort, wo du aufgehört hast</li>
             <li><b>Spielstände</b>, so viele du willst</li>
@@ -495,7 +496,7 @@
         <div class="copy">
           <p class="eyebrow">Von einem einzigen Entwickler</p>
           <h2>Bald verfügbar.</h2>
-          <p>Ein unabhängiger Entwickler in Frankreich hat jeden Emulator in Emura gebaut. Bleib dran, stell Fragen und stimm darüber ab, was als Nächstes kommt.</p>
+          <p>Emura wird von einem unabhängigen Entwickler in Frankreich gemacht. Bleib dran, stell Fragen und stimm darüber ab, was als Nächstes kommt.</p>
           <div class="actions">
             <a class="btn primary" href="https://www.reddit.com/r/EmuraApp" target="_blank" rel="noopener noreferrer">r/EmuraApp beitreten</a>
             <a class="btn" href="faq.html">Zu den FAQ</a>

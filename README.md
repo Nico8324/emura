@@ -42,7 +42,7 @@ This repository is Emura's home for support: help pages, problem reports and dis
 - **Play your way:** game controllers and keyboards, and .deltaskin skins, free.
 - **The consoles' own tricks:** the DS's lid and two screens, and the 3DS's step counter.
 - **Every system plays free.** Supporters get save states, faster fast forward, their iPhone's colors and Screen Light.
-- **Nothing about you leaves your iPhone:** no account, no ads, no tracking. [Privacy policy](https://emuraapp.com/privacy.html).
+- **Emura collects nothing about you by itself:** no account, no ads, no tracking. [Privacy policy](https://emuraapp.com/privacy.html).
 
 ## Thanks
 
